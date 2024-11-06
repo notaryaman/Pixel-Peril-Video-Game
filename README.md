@@ -22,26 +22,27 @@ Ensure you have these dependencies installed before compiling and running the ga
 ### Compilation
 
 To compile the game, follow these steps:
-
 1. Make sure you have all the required dependencies installed.
 2. Download the source code and navigate to the directory containing the code.
 3. Compile the code using your preferred C++ compiler. For example, you can do the following on VScode to compile the code:
 ```bash
-**Cntrl + Shift + B**
+Cntrl + Shift + B
 ```
 Or you can use g++ with the following command:\
 ```bash
-**g++ -o pixel_peril main.cpp -lGL -lGLU -lglfw -lglut -std=c++11**
+g++ -o pixel_peril main.cpp -lGL -lGLU -lglfw -lglut -std=c++11
 ```
 
 ### Running the Game
+
 After successfully compiling the game, you can run it with the following command:
-
+``` bash
 ./main
-
+```
 This will launch the game window.
 
 ### Game Controls
+
 W: Move up
 A: Move left
 S: Move down
@@ -51,6 +52,7 @@ I: Hold down for instructions.
 R: Press to restart the game after a game over.
 
 ### Gameplay
+
 Your goal is to maneuver the square avatar, avoiding collisions with moving NPCs.
 The game commences with a Spacebar press, triggering NPC movement.
 Employ the WASD keys for navigation, aiming for the longest survival time possible.
