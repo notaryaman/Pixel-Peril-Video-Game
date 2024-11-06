@@ -1,7 +1,9 @@
 ## Pixel Peril! - README
+
 *Pixel Peril!* is an engaging and challenging 2D game developed in C++ using OpenGL and GLFW. In this dynamic game, you pilot a square avatar, dodging an array of moving NPCs (Non-Player Characters) that come in various colors. The game is initiated by pressing the spacebar, setting into motion the NPCs.
 
 ### Table of Contents
+
 Requirements\
 Compilation\
 Running the Game\
@@ -9,6 +11,7 @@ Game Controls\
 Gameplay
 
 ### Requirements
+
 C++ compiler\
 OpenGL\
 GLFW\
@@ -17,20 +20,19 @@ VCcode(not actually required, but is recommended)
 Ensure you have these dependencies installed before compiling and running the game.\
 
 ### Compilation
+
 To compile the game, follow these steps:
 
-Make sure you have all the required dependencies installed.
-
-Download the source code and navigate to the directory containing the code.
-
-Compile the code using your preferred C++ compiler. For example, you can do the following on VScode to compile the code:
-
+1. Make sure you have all the required dependencies installed.
+2. Download the source code and navigate to the directory containing the code.
+3. Compile the code using your preferred C++ compiler. For example, you can do the following on VScode to compile the code:
+'''bash
 **Cntrl + Shift + B**
-
+'''
 Or you can use g++ with the following command:\
-
+''' bash
 **g++ -o pixel_peril main.cpp -lGL -lGLU -lglfw -lglut -std=c++11**
-
+'''
 
 ### Running the Game
 After successfully compiling the game, you can run it with the following command:
