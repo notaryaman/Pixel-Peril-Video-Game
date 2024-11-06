@@ -26,13 +26,13 @@ To compile the game, follow these steps:
 1. Make sure you have all the required dependencies installed.
 2. Download the source code and navigate to the directory containing the code.
 3. Compile the code using your preferred C++ compiler. For example, you can do the following on VScode to compile the code:
-'''bash
+```bash
 **Cntrl + Shift + B**
-'''
+```
 Or you can use g++ with the following command:\
-''' bash
+```bash
 **g++ -o pixel_peril main.cpp -lGL -lGLU -lglfw -lglut -std=c++11**
-'''
+```
 
 ### Running the Game
 After successfully compiling the game, you can run it with the following command:
